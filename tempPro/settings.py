@@ -85,24 +85,24 @@ WSGI_APPLICATION = 'tempPro.wsgi.application'
 
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres.jxxbpnsvvtkocghlnhrg',
-        'PASSWORD': 'Eu190304-1993',
-        'HOST': 'aws-0-eu-central-1.pooler.supabase.com',
-        'PORT': '6543',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'postgres',
+#         'USER': 'postgres.jxxbpnsvvtkocghlnhrg',
+#         'PASSWORD': 'Eu190304-1993',
+#         'HOST': 'aws-0-eu-central-1.pooler.supabase.com',
+#         'PORT': '6543',
+#     }
+# }
 
 
 # Password validation
