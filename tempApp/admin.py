@@ -8,6 +8,7 @@ class TemperaturesAdmin(admin.ModelAdmin):
                     'temperature2', 'humidity2', 
                     'temperature3', 'humidity3', 
                     'temperature4', 'humidity4', 
-                    'temperature5', 'humidity5')
+                    'temperature5', 'humidity5', 
+                    'time', )
     search_fields = ('date',)
     list_filter = ('date',)
